@@ -1,0 +1,195 @@
+.heading h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 2rem;
+   
+}
+.heading h2{
+   font-size: 4rem;
+   opacity: .3;
+   color: #e5e5e5;
+}
+#about{
+    background-image: url(imagess/light_dot.jpg);
+    padding: 50px 0;
+}
+#TESTIMONIALS img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #fff;
+    transform: translateY(-50%);
+}
+.tex::after{
+    content: "";
+    color: #fff;
+    animation: n 5s infinite ;
+    animation-direction: initial;
+}
+@keyframes n{
+    2%{
+        content: "De";
+    }
+    5%{
+        content: "Deve";
+    }
+    10%{
+        content: "Develo";
+    }
+    20%{
+        content: "Developer";
+    }
+    30%{
+        content: "Developer, G";
+    }
+    40%{
+        content: "Developer, Graph";
+    }
+    50%{
+        content: "Developer, Graphics &";
+    }
+    60%{
+        content: "Developer, Graphics & W";
+    }
+    70%{
+        content: "Developer, Graphics & Web ";
+    }
+    80%{
+        content: "Developer, Graphics & Web Des";
+    }
+    90%{
+        content: "Developer, Graphics & Web Des";
+    }
+    100%{
+        content: "Developer, Graphics & Web Design";
+    }
+}
+.carousel-inner{
+    padding: 50px 0;
+}
+.carousel-inner h6{
+   color: #ff206e
+}
+.carousel-indicators li
+{
+    width:6px;
+    height:6px;
+    border-radius:50%;
+    background-color:#ff206e;
+}
+header{    
+    height:100vh;
+       background-image: url(imagess/bg.jpg);
+       background-size:100% 100%;
+  
+}
+.sco{
+    position:absolute;
+    bottom:20px;
+    left:20px
+}
+.sco i{
+    margin:10px;
+    border-radius:50%;
+    padding:8px;
+    border:1px solid #fff;
+    color:#fff;
+}
+.sco i:hover{
+    background-color: #ff206e;
+}
+.pill{
+    width:20px;
+    height:40px;
+    border-radius:50rem;
+    border:.5px solid#FFF;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+
+}
+.dot{
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: #fff;
+    animation: move 3S infinite;
+}
+@keyframes move{
+    0%{
+opacity: 0;
+transform: translateY(-15px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(15px);
+            }
+}
+@media All
+  and (max-width: 770px)and(min-width: 400px) {
+    .pill{
+        margin-left: 33px;
+    }
+    .heading h3{
+      
+       
+  
+        font-size: 1rem;
+       
+    }
+    .heading h2{
+       font-size: 2rem;
+     
+    }
+    .sco{
+        position:absolute;
+        bottom:0px;
+        left:5px
+    }
+    .tex{
+        font-size: 1rem;
+    }
+    .h1{
+        font-size: 2rem;  
+    }
+    .header{
+        height:100vh;
+        background-image: url(imagess/bg.jpg);
+        background-size:100% 100%;
+    }
+  }
+  @media All
+  and (max-width: 400px) {
+    .pill{
+       opacity: 0;
+    }
+    .heading h3{
+      
+       
+  
+        font-size: 1rem;
+       
+    }
+    .heading h2{
+       font-size: 2rem;
+     
+    }
+    .sco{
+        position:absolute;
+        bottom:0px;
+        left:5px
+    }
+    .tex{
+        font-size: 1rem;
+    }
+    .h1{
+        font-size: 2rem;  
+    }
+    .header{
+        height:100vh;
+        background-image: url(imagess/bg.jpg);
+        background-size:100% 100%;
+    }
+  }

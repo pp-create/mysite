@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist\css\bootstrap.min.css"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container  border shadow my-1"> 
+        <h4>Crud System</h4>
+        <div class="form-group">
+          <label for="productName">productName</label>
+          <input type="text" name="" id="productName" class="form-control" placeholder="" aria-describedby="helpId">
+         
+        </div>
+        <div class="form-group">
+            <label for="productCatgery">productCatgery</label>
+            <input type="text" name="" id="productCatgery" class="form-control" placeholder="" aria-describedby="helpId">
+           
+          </div> 
+         
+          <div class="form-group">
+            <label for="productprice">productprice</label>
+            <input type="text" name="" id="productprice" class="form-control" placeholder="" aria-describedby="helpId">
+           
+          </div>
+          <div class="form-group">
+            <label for="productdescripion">productdescripion</label>
+            <input type="text" name="" id="productdescripion"  class="form-control" placeholder="" aria-describedby="helpId">
+           
+          </div>
+       <button class="mt-5 btn btn-info " style="    margin: 6px;" id="btnadd" onclick="test();"> addprodect</button>
+     </div>
+     <input type="search"  onkeyup="sreach()" id="sreach" class="my-5 mx-auto form-contorl w-25 text-center " style="display: block;">
+  <table class="table text-center w-75 container ">
+<head>
+    <th>name</th>
+    <th>categery</th>
+    <th>price</th>
+    <th>productdescripion</th>
+    <th>Action</th>
+</head>
+<tbody id="tbody" class="text-danger table-light"></tbody>
+  </table>
+     <script src="java.js"></script>
+      <script src="bootstrap-4.4.1-dist\js\\.min.js"></script>
+</body>
+</html>
